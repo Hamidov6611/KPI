@@ -1,0 +1,31 @@
+.send-file-modal-wrap{
+     width: 500px;
+     height: auto;
+     background-color: rgb(255, 255, 255);
+     padding: 25px 15px;
+     border-radius: 15px;
+     box-shadow: -1px 0px 5px 3px #00000033;
+     .close-icon{
+          background-color: #fff;
+          width: 30px;
+          height: 30px;
+          border: 1px solid rgb(181, 179, 179);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          transform: translate(450px, -15px);
+          cursor: pointer;
+          font-size: 50px;
+          .icon{
+               width: 100px;
+          }
+         
+     }
+     .send-file-modal-btn{
+          width: 100%;
+          display: flex;
+          justify-content: end;
+          gap: 20px;
+     }
+}
